@@ -1,0 +1,87 @@
+baseURL = "https://example.edu"
+languageCode = "en-us"
+title = "Siyi Weng"
+theme = "avicenna"
+googleAnalytics = "UA-1234-6"
+timeout=3000
+
+
+[[params.affilation]]
+  name = "University of Illinois at Urbana Champaign"
+  position = "Undergraduate Student"
+  contact = "siyiw3@illinois.edu"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github-dev.cs.illinois.edu/siyiw3"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "instagram"
+  url = "https://www.instagram.com/susie_wsy/"
+
+
+[[params.introduction.paragraph]]
+  text="""Hi, my name is Siyi Weng. Your can just call me Susie. I am a junior and I am double majored in Computer Science + math and
+Statistics. I am from Ningbo, a city in Southern China. I love singing, cooking and painting."""
+[[params.introduction.paragraph]]
+  text=""" I am interested in machine learning and data science. I want to apply for master degree of Data Science or Business Analysis after graduation. I can use Python, R, C++, C, Java, Javascript and MIPS. 
+  """
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "ScribeAR"
+		description  = "ScribeAR is a real-time captioning platform. This is an effective communication access tool for the Deaf and Hard of Hearing by converting inaccessible speech into accessible text."
+		project_page = "https://publish.illinois.edu/scribe-ar/"
+		code_link = "https://github.com/classtranscribe/ScribeAR.github.io/"
+		blog_link = "https://publish.illinois.edu/scribe-ar/ "
+
+ [[params.projects.project]]
+		name = "Linux Kernal"
+		description  = "My own implementations of calloc, malloc, realloc, and free in alloc.c. alloc.c. I gained top 10 place in final contest."
+		project_page = "http://cs241.cs.illinois.edu/assignments/malloc"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/Malloc"
+		blog_link = ""
+  [[params.projects.project]]
+		name = "Shell"
+		description  = "A simulated shell for windows. It can execute cd, history, prefix and various other commands."
+		project_page = "http://cs241.cs.illinois.edu/assignments/shell.html"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/Shell"
+		blog_link = "http://cs241.cs.illinois.edu/assignments/shell.html"
+
+ [[params.projects.project]]
+		name = "Running Routine for Automatic Guided Vehicle"
+		description  = "An operation system to assign and schedule the Automatic Guided Vehicles's running routine. This implementation increases the effiency for more than twenty percent in smart factory."
+		project_page = "http://www.sunnyintell.com/zhinengwuliuxitong/197.html"
+		code_link = ""
+		blog_link = "http://www.sunnyintell.com/zhinengwuliuxitong/197.html"
+		
+	[[params.projects.project]]
+		name = "Photo Mosaic"
+		description  = "DFS and BFS Image Traversal Tool"
+		project_page = "https://courses.engr.illinois.edu/cs225/fa2018/mps/4/"
+		blog_link = "https://courses.engr.illinois.edu/cs225/fa2018/mps/4/"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/BFS-DFS"
+		
+	[[params.projects.project]]
+		name = "DFS and BFS"
+		description  = "Phote Mosaic a picture created by taking some source picture, dividing it up into rectangular sections, and replacing each section with a small thumbnail image whose color closely approximates the color of the section it replaces."
+		project_page = "https://courses.engr.illinois.edu/cs225/fa2018/mps/5/"
+		blog_link = "https://courses.engr.illinois.edu/cs225/fa2018/mps/5/"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/mosaic-creator"
+		
+	[[params.projects.project]]
+		name = "Maze Solver"
+		description  = "It is a  a random maze generator and solver by implementing a Disjoint set data structure."
+		project_page = "https://courses.engr.illinois.edu/cs225/fa2018/mps/6/"
+		blog_link = "https://courses.engr.illinois.edu/cs225/fa2018/mps/6/"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/Maze-Solver"
+		
+	[[params.projects.project]]
+		name = "Adventures"
+		description  = "A simple text-based adventure game that takes a description of the world in JSON and lets a user interactively navigate through the world. It prints to and take input from the console."
+		project_page = "https://courses.grainger.illinois.edu/cs126/sp2020/assignments/amazing-adventures/"
+		blog_link = "https://courses.grainger.illinois.edu/cs126/sp2020/assignments/amazing-adventures/"
+		code_link = "https://github-dev.cs.illinois.edu/siyiw3/Adventure"
+
